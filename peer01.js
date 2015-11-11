@@ -55,6 +55,6 @@ function happy(val){
 	return val;
 }
 
-console.log(value = happy(value));
+value = happy(value);
 
 console.log(value);
