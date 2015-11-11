@@ -14,8 +14,6 @@ for(var i=0 ; i< value.length ; i++){
 	array.push(value.charAt(i));
 };
 
-
-
 array.pop();
 
 array.shift();
@@ -23,20 +21,14 @@ array.shift();
 var backwardsValue = "";
 
 
-
 for(var c = array.length - 1; c > -1; c--){
 	backwardsValue += array[c];	
 };
 
-
 value = parseInt(value, 10);
 
 backwardsValue = parseInt(backwardsValue, 10);
-console.log(backwardsValue);
-console.log(value);
 value = value + backwardsValue;
-
-console.log(value);
 
 if (value < 60){
 	value = 14;
@@ -48,15 +40,12 @@ else {
 	value = 2;
 }
 
-console.log(value + " after else");
-
 var count = 10;
 while (count > 0){
 	value++;
 	count--;
 }
 
-console.log(value)
 
 function happy(val){
 	val = val.toString();
